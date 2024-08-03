@@ -6,7 +6,7 @@ import pandas as pd
 
 # Load and display the CSV file
 # Reason: To read the financial data into a DataFrame for processing and analysis.
-df = pd.read_csv('ticker.csv')
+df = pd.read_csv('aapl-stocks23.csv')
 print(df.head())
 
 # Initialize Panel Extension

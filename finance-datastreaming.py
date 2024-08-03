@@ -4,6 +4,8 @@ import bokeh.plotting
 import panel as pn
 import pandas as pd
 
+# run in terminal: panel serve finance-datastreaming.py --autoreload --show
+
 # Load and display the CSV file
 # Reason: To read the financial data into a DataFrame for processing and analysis.
 df = pd.read_csv('aapl-stocks23.csv')
